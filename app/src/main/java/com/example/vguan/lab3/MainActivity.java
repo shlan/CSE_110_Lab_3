@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     public int sum() {
         int num1 = Integer.parseInt(((EditText) findViewById(R.id.num1)).getText().toString());
         int num2 = Integer.parseInt(((EditText) findViewById(R.id.num2)).getText().toString());
-        return num1 + num2;
+        return num1 - num2;
     }
 
     @Override

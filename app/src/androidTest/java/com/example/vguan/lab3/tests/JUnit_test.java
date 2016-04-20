@@ -40,6 +40,6 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity>{
         int num1 = Integer.parseInt(one.getText().toString());
         int num2 = Integer.parseInt(two.getText().toString());
 
-        assertEquals(num1+num2, tester);
+        assertEquals(num1-num2, tester);
     }
 }
